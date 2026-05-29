@@ -38,12 +38,12 @@ RECOVER    — Restore capabilities after an incident
 
 | NIST Function | NIST Control | Nexus Corp Implementation | Status |
 |---|---|---|---|
-| Identify | Asset Management | CMDB — all assets inventoried | ✅ |
+| Identify | Asset Management | CMDB all assets inventoried | ✅ |
 | Identify | Risk Assessment | Annual risk assessment completed | ✅ |
 | Protect | Access Control | MFA + RBAC implemented | ✅ |
 | Protect | Awareness Training | Annual security training mandatory | ✅ |
 | Protect | Data Security | AES-256 encryption at rest and transit | ✅ |
-| Detect | Anomalies & Events | Splunk SIEM — 24/7 monitoring | ✅ |
+| Detect | Anomalies & Events | Splunk SIEM 24/7 monitoring | ✅ |
 | Detect | Security Monitoring | EDR on all endpoints | ✅ |
 | Respond | Response Planning | IR playbooks documented | ✅ |
 | Respond | Communications | Incident notification procedure | ✅ |
@@ -91,12 +91,12 @@ A.18  — Compliance
 | A.10 | Encryption Policy | AES-256 + TLS 1.3 | ✅ |
 | A.11 | Physical Security | Data centre access controls | ✅ |
 | A.12 | Malware Controls | EDR deployed on all endpoints | ✅ |
-| A.12 | Backup Policy | Daily backups — immutable storage | ✅ |
+| A.12 | Backup Policy | Daily backups immutable storage | ✅ |
 | A.12 | Audit Logging | SIEM collects all logs | ✅ |
 | A.13 | Network Segmentation | Micro-segmentation implemented | ✅ |
 | A.16 | Incident Response | IR playbooks + SOC 24/7 | ✅ |
 | A.16 | Incident Reporting | Regulatory notification procedure | ⚠️ Partial |
-| A.17 | Business Continuity | BCP documented — DR not tested | ⚠️ Gap |
+| A.17 | Business Continuity | BCP documented DR not tested | ⚠️ Gap |
 | A.18 | Legal Compliance | GDPR + SOX compliance mapped | ✅ |
 
 **ISO 27001 Compliance Score: 13/15 (87%) ⚠️**
@@ -145,7 +145,7 @@ Privacy        — Personal information is collected and used correctly
 ## Framework 4 — GDPR
 
 **What it is:**
-The General Data Protection Regulation — EU law governing
+The General Data Protection Regulation EU law governing
 how personal data of EU citizens must be collected, stored,
 processed, and protected. Non-compliance fines: up to
 €20 million or 4% of global annual turnover.
@@ -156,7 +156,7 @@ processed, and protected. Non-compliance fines: up to
 Article 5  — Principles of data processing
 Article 17 — Right to erasure (right to be forgotten)
 Article 25 — Data protection by design and default
-Article 32 — Security of processing — encryption, pseudonymisation
+Article 32 — Security of processing encryption, pseudonymisation
 Article 33 — Notification of data breach to authority (72 hours)
 Article 34 — Communication of breach to data subjects
 Article 35 — Data Protection Impact Assessment (DPIA)
@@ -209,7 +209,7 @@ Article 35 — Data Protection Impact Assessment (DPIA)
 
 ### High — ISO 27001 + SOC 2
 ```
-4. Test DR plan — schedule full DR exercise
+4. Test DR plan schedule full DR exercise
    Risk: BCP/DR plan exists but untested = false confidence
    Timeline: 30 days
 
@@ -233,13 +233,13 @@ Daily:
 ✅ Verify alert response times meet SLA (compliance evidence)
 
 Weekly:
-✅ Review access control changes — new accounts, permission changes
+✅ Review access control changes new accounts, permission changes
 ✅ Verify backup completion logs
 ✅ Check patch compliance dashboard
 
 Monthly:
 ✅ Produce compliance metrics report
-✅ Review user access — remove stale accounts
+✅ Review user access remove stale accounts
 ✅ Verify MFA compliance across all accounts
 
 Annually:
