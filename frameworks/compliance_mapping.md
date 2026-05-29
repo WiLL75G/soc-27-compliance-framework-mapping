@@ -1,6 +1,6 @@
 # Compliance Framework Mapping
 ## Nexus Corp Security Operations Center
-## Analyst: James | Case ID: COMP-2026-001
+## Analyst: William | Case ID: COMP-2026-001
 
 ---
 
