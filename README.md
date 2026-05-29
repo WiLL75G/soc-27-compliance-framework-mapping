@@ -5,16 +5,16 @@
 ## Incident Summary
 
 - **Project Type:** Compliance Framework Mapping & Gap Analysis
-- **Severity:** Strategic — Critical GDPR Gap Identified (63% Compliance)
+- **Severity:** Strategic Critical GDPR Gap Identified (63% Compliance)
 - **Frameworks Mapped:** NIST CSF, ISO 27001, SOC 2 Type II, GDPR
-- **Scope:** Nexus Corp — All security controls mapped across 4 frameworks
-- **Status:** Complete — Gap Analysis Delivered, Remediation Plan Produced
+- **Scope:** Nexus Corp All security controls mapped across 4 frameworks
+- **Status:** Complete Gap Analysis Delivered, Remediation Plan Produced
 
 ---
 
 ## Executive Summary
 
-A full compliance framework mapping was conducted for Nexus Corp across four major security frameworks — NIST CSF, ISO 27001, SOC 2 Type II, and GDPR. NIST CSF compliance scored highest at 91%. A critical GDPR gap was identified at 63% — driven by manual right-to-erasure processes, incomplete privacy-by-design implementation, and partial DPIA coverage. ISO 27001 and SOC 2 both scored in the high 80s with shared gaps in DR testing and change management. A prioritised remediation plan was produced with six actions across two urgency tiers.
+A full compliance framework mapping was conducted for Nexus Corp across four major security frameworks NIST CSF, ISO 27001, SOC 2 Type II, and GDPR. NIST CSF compliance scored highest at 91%. A critical GDPR gap was identified at 63% driven by manual right-to-erasure processes, incomplete privacy-by-design implementation, and partial DPIA coverage. ISO 27001 and SOC 2 both scored in the high 80s with shared gaps in DR testing and change management. A prioritised remediation plan was produced with six actions across two urgency tiers.
 
 ---
 
@@ -25,7 +25,7 @@ A full compliance framework mapping was conducted for Nexus Corp across four maj
 - **Total Controls Mapped:** 46 controls across 4 frameworks
 - **Compliant Controls:** 38
 - **Gap Controls:** 8
-- **Critical Gap:** GDPR — 63% compliance
+- **Critical Gap:** GDPR 63% compliance
 
 ---
 
@@ -35,14 +35,14 @@ A full compliance framework mapping was conducted for Nexus Corp across four maj
 
 ### 1. NIST Cybersecurity Framework Assessment
 
-- Mapped all 11 controls across 5 NIST CSF functions — Identify, Protect, Detect, Respond, Recover
+- Mapped all 11 controls across 5 NIST CSF functions Identify, Protect, Detect, Respond, Recover
 - 10 of 11 controls fully implemented
 - Single gap: DR/recovery plan exists but has not been tested
 
 #### SOC Observations:
 
-- NIST CSF is the most SOC-friendly framework — Detect and Respond functions map directly to SOC operations
-- An untested DR plan is no plan at all — a failed DR exercise is better than discovering failure during a real incident
+- NIST CSF is the most SOC-friendly framework Detect and Respond functions map directly to SOC operations
+- An untested DR plan is no plan at all a failed DR exercise is better than discovering failure during a real incident
 - SIEM coverage of all log sources is the most critical NIST Detect control
 
 **Score: 10/11 — 91% ✅**
@@ -58,8 +58,8 @@ A full compliance framework mapping was conducted for Nexus Corp across four maj
 #### SOC Observations:
 
 - ISO 27001 A.16 (Incident Management) is the domain most relevant to SOC operations
-- Incomplete regulatory notification procedure is a compliance risk — GDPR requires 72-hour breach notification
-- ISO 27001 certification requires documented evidence — every SOC action must be logged
+- Incomplete regulatory notification procedure is a compliance risk GDPR requires 72-hour breach notification
+- ISO 27001 certification requires documented evidence every SOC action must be logged
 
 **Score: 13/15 — 87% ⚠️**
 
@@ -73,9 +73,9 @@ A full compliance framework mapping was conducted for Nexus Corp across four maj
 
 #### SOC Observations:
 
-- SOC 2 Type II is tested over time — not a snapshot — meaning SOC evidence must be consistent
-- Informal change management creates audit evidence gaps — auditors cannot accept undocumented changes
-- Availability criteria requires DR to be tested — documented but untested fails the audit
+- SOC 2 Type II is tested over time not a snapshot meaning SOC evidence must be consistent
+- Informal change management creates audit evidence gaps auditors cannot accept undocumented changes
+- Availability criteria requires DR to be tested documented but untested fails the audit
 
 **Score: 10/12 — 83% ⚠️**
 
@@ -88,15 +88,15 @@ A full compliance framework mapping was conducted for Nexus Corp across four maj
 - Three gaps: Manual right-to-erasure, partial privacy by design, incomplete DPIA coverage
 
 #### Critical Findings:
-- Right to erasure is a manual process — GDPR requires response within 30 days
-- Privacy by design not embedded in SDLC — new systems may not meet GDPR by default
-- DPIA not completed for all high-risk processing — unidentified regulatory exposure
+- Right to erasure is a manual process GDPR requires response within 30 days
+- Privacy by design not embedded in SDLC new systems may not meet GDPR by default
+- DPIA not completed for all high-risk processing unidentified regulatory exposure
 
 #### SOC Observations:
 
-- GDPR Article 33 requires 72-hour breach notification — SOC must have this in IR playbooks
-- Data breach = potential €20M fine or 4% of global turnover — GDPR gaps are business-critical
-- SOC analysts are the first to identify potential GDPR breaches — they must know the notification triggers
+- GDPR Article 33 requires 72-hour breach notification SOC must have this in IR playbooks
+- Data breach = potential €20M fine or 4% of global turnover GDPR gaps are business-critical
+- SOC analysts are the first to identify potential GDPR breaches they must know the notification triggers
 
 **Score: 5/8 — 63% ❌**
 
@@ -129,10 +129,10 @@ A full compliance framework mapping was conducted for Nexus Corp across four maj
 
 ## SOC Analyst Findings
 
-- NIST CSF compliance strong at 91% — single gap is DR testing
-- ISO 27001 at 87% — incomplete notification procedure is highest risk item
-- SOC 2 at 83% — informal change management creates audit evidence risk
-- GDPR at 63% — critical gap requiring immediate attention
+- NIST CSF compliance strong at 91% single gap is DR testing
+- ISO 27001 at 87% incomplete notification procedure is highest risk item
+- SOC 2 at 83% informal change management creates audit evidence risk
+- GDPR at 63% critical gap requiring immediate attention
 - Shared gap across 3 frameworks: DR plan exists but has never been tested
 - GDPR breach notification procedure confirmed in IR playbooks ✅
 
@@ -151,7 +151,7 @@ A full compliance framework mapping was conducted for Nexus Corp across four maj
 
 ## Analyst Insight
 
-Compliance is not just about passing audits — it is about building the evidence that proves your security controls work. A SOC analyst who understands compliance frameworks knows that every alert they triage, every incident they document, and every log they collect is compliance evidence. The GDPR gap at 63% is the most urgent finding in this assessment — not because of the framework itself, but because a data breach in a non-compliant GDPR environment can cost the business tens of millions. The SOC is on the front line of GDPR — every breach starts as a SOC alert.
+Compliance is not just about passing audits it is about building the evidence that proves your security controls work. A SOC analyst who understands compliance frameworks knows that every alert they triage, every incident they document, and every log they collect is compliance evidence. The GDPR gap at 63% is the most urgent finding in this assessment not because of the framework itself, but because a data breach in a non-compliant GDPR environment can cost the business tens of millions. The SOC is on the front line of GDPR every breach starts as a SOC alert.
 
 ---
 
@@ -160,7 +160,7 @@ Compliance is not just about passing audits — it is about building the evidenc
 - Map security controls across NIST CSF, ISO 27001, SOC 2, and GDPR
 - Identify compliance gaps and quantify their business risk
 - Understand the SOC analyst's role in compliance evidence collection
-- Apply GDPR Article 33 — 72-hour breach notification — to IR playbooks
+- Apply GDPR Article 33 — 72-hour breach notification to IR playbooks
 - Produce a prioritised compliance remediation plan
 - Understand how SOC operations directly support regulatory compliance
 - Connect daily SOC work to compliance framework requirements
@@ -181,4 +181,4 @@ soc-27-compliance-framework-mapping/
 
 ## Conclusion
 
-This project delivers a complete compliance framework mapping for Nexus Corp across NIST CSF, ISO 27001, SOC 2 Type II, and GDPR. Forty-six controls were assessed and eight gaps were identified. A critical GDPR compliance gap at 63% requires immediate remediation. A prioritised six-action remediation plan was produced. This project demonstrates that a SOC analyst understands not just how to detect and respond to threats — but how security operations connect to the regulatory and compliance obligations that protect the business.
+This project delivers a complete compliance framework mapping for Nexus Corp across NIST CSF, ISO 27001, SOC 2 Type II, and GDPR. Forty-six controls were assessed and eight gaps were identified. A critical GDPR compliance gap at 63% requires immediate remediation. A prioritised six-action remediation plan was produced. This project demonstrates that a SOC analyst understands not just how to detect and respond to threats but how security operations connect to the regulatory and compliance obligations that protect the business.
