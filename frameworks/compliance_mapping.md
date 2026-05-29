@@ -17,7 +17,7 @@ A SOC analyst must understand these frameworks because:
 
 ---
 
-## Framework 1 — NIST Cybersecurity Framework (CSF)
+## Framework 1 NIST Cybersecurity Framework (CSF)
 
 **What it is:**
 A voluntary framework developed by the US National Institute
@@ -54,7 +54,7 @@ RECOVER    — Restore capabilities after an incident
 
 ---
 
-## Framework 2 — ISO 27001
+## Framework 2 ISO 27001
 
 **What it is:**
 The international standard for Information Security Management
@@ -103,7 +103,7 @@ A.18  — Compliance
 
 ---
 
-## Framework 3 — SOC 2 (Type II)
+## Framework 3 SOC 2 (Type II)
 
 **What it is:**
 SOC 2 is an auditing standard for service organisations.
@@ -142,7 +142,7 @@ Privacy        — Personal information is collected and used correctly
 
 ---
 
-## Framework 4 — GDPR
+## Framework 4 GDPR
 
 **What it is:**
 The General Data Protection Regulation EU law governing
@@ -192,7 +192,7 @@ Article 35 — Data Protection Impact Assessment (DPIA)
 
 ## Priority Remediation Actions
 
-### Critical — GDPR (Score 63%)
+### Critical GDPR (Score 63%)
 ```
 1. Automate right to erasure workflow
    Risk: Manual process too slow for GDPR 30-day requirement
@@ -207,7 +207,7 @@ Article 35 — Data Protection Impact Assessment (DPIA)
    Timeline: 45 days
 ```
 
-### High — ISO 27001 + SOC 2
+### High ISO 27001 + SOC 2
 ```
 4. Test DR plan schedule full DR exercise
    Risk: BCP/DR plan exists but untested = false confidence
